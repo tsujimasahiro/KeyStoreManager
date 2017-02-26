@@ -49,7 +49,7 @@ public class SinerTest {
 		String alg = "MD5withRSA";
 		SignImpl signImpl = new SignImpl();
 
-		String alias = "SiriusWebKey05";
+		String alias = "SiriusWebKey01";
 		KeyStoreWrapper ks = new KeyStoreWrapper(new File("C:\\tmp\\keystore\\rsakeystore02"), "sirius", "JKS");
 		Key key = ks.getPrivateKey(alias, "sirius");
 		PrivateKey privKey = (PrivateKey) key;
@@ -65,7 +65,7 @@ public class SinerTest {
 		String message = "This is Signature Demo.";
 		String alg = "SHA256withRSA";
 
-		String alias = "SiriusWebKey05";
+		String alias = "SiriusWebKey01";
 		KeyStoreWrapper ks = new KeyStoreWrapper(new File("C:\\tmp\\keystore\\rsakeystore02"), "sirius", "JKS");
 		Key key = ks.getPrivateKey(alias, "sirius");
 		PrivateKey privKey = (PrivateKey) key;
@@ -86,7 +86,7 @@ public class SinerTest {
 		String message = "This is Signature Demo.";
 		String alg = "SHA256withRSA";
 
-		String alias = "SiriusWebKey05";
+		String alias = "SiriusWebKey01";
 		KeyStoreWrapper ks = new KeyStoreWrapper(new File("C:\\tmp\\keystore\\rsakeystore02"), "sirius", "JKS");
 		Key key = ks.getPrivateKey(alias, "sirius");
 		PrivateKey privKey = (PrivateKey) key;
