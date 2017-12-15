@@ -7,7 +7,7 @@ import static org.junit.Assert.assertThat;
 import java.util.Map;
 
 import org.junit.Test;
-
+ 
 import com.kiririmode.vault.cmd.SimpleCommandLineParser;
 
 public class SimpleCommandLineParserTest {
